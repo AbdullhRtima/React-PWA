@@ -1,4 +1,4 @@
-var CACHE_NAME = 'your-app-name';
+var CACHE_NAME = 'pwa';
 var urlsToCache = [
   '/',
   '/completed'
@@ -33,7 +33,7 @@ self.addEventListener('fetch', event => {
 
 // Update a service worker
 self.addEventListener('activate', event => {
-  var cacheWhitelist = ['your-app-name'];
+  var cacheWhitelist = ['pwa'];
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
