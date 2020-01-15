@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         <img src={rt} className="App-logo" alt="logo" />
         <p className="info">
-          this PWA using react  <code>  <a className="App-link" href="" target="_blank"> visit github repo for more </a> </code>
+          this PWA using react  <code>  <a className="App-link" href="https://github.com/AbdullhRtima/React-PWA" target="_blank"> visit github repo for more </a> </code>
         </p>
         <p className="info">
           follow me
